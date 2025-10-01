@@ -5,7 +5,7 @@ import leaderBoard from '../models/leaderboard.js'
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcrypt'
 import authMiddleware from '../middleware/auth.js'
-const JWT_SECRET="pawarnilesh21"
+const JWT_SECRET="YourSecretKey"
 const userRoutes=express.Router()
 
 userRoutes.post('/',async (req,res)=>{
