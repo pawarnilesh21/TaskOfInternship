@@ -1,0 +1,22 @@
+{
+  "name": "backend-authentication",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.js",
+    "dev": "bun --hot src/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3"
+  }
+}
