@@ -1,7 +1,14 @@
 
 A simple MERN application with authentication and a leaderboard system.  
 
-## ⚙️ Setup Instructions:
+ ✨ Features  
+- User registration & login with JWT authentication  
+- Password hashing using bcrypt  
+- Protected dashboard route  
+- Leaderboard stored in MongoDB  
+- React frontend styled with Tailwind  
+
+ ⚙️ Setup Instructions:
 
 1. Clone the Repository
 2. backEnd setup :

@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-const JWT_SECRET="pawarnilesh21"
+const JWT_SECRET="YourSecretKey"
 
 const authMiddleware=(req,res,next)=>{
     const authHeader=req.headers['authorization']
